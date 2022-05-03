@@ -1,0 +1,129 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #B2B3A1;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 370px auto;
+    grid-template-rows: auto 100px;
+    gap: 25px;
+}
+
+aside,
+section {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+aside {
+    background-color: #6E6464;
+    padding: 0px;
+    max-width: 340px;
+    margin: 25px 0px 0px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main {
+    margin: 25px 25px 0px 0px;
+}
+
+section {
+    background-color: #F5F2E1;
+    color: #383546;
+    padding: 40px;
+
+
+}
+
+section:first-of-type {
+    margin-bottom: 25px;
+}
+
+
+#profilepicture {
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#profile-picture-container {
+    position: relative;
+}
+
+h1 {
+    color: #383546;
+    background-color: rgb(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 35px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+
+}
+
+#jobtitle {
+    background-color: #FFCD88;
+    width: 100%;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    padding: 5px 0px;
+    text-align: center;
+    font-style: italic;
+}
+
+#contact,
+#aboutme {
+    color: #FFFFFF;
+    align-self: flex-start;
+    padding: 0px 25px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0px;
+
+}
+
+#contact li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#contact img {
+    width: 30px;
+
+}
+
+#contact a {
+    margin-right: 10px;
+}
+
+h2 {
+    font-style: bold;
+}
+
+section h2 {
+    border-bottom: 4px solid #383546;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+section li {
+    padding: 10px 0px;
+}
+
+section h3,
+section h4,
+section p {
+    margin: 5px 0px;
+}
+
+/*This is a comment */
