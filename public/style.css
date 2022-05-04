@@ -10,8 +10,6 @@ body {
 
 }
 
-
-
 aside {
     background-color: #C6B2AB;
     padding: 0px;
@@ -26,13 +24,12 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 section {
     background-color: #E3E1E4;
     color: #383546;
-    padding: 40px;
+    padding: 0 40px;
 }
 
 #profile-picture-container {
@@ -42,7 +39,7 @@ section {
     height: 250px;
     border-radius: 50%;
     background-size: cover;
-    margin-top: 2rem;
+    margin: 2rem 0;
 }
 
 h1 {
@@ -62,6 +59,7 @@ h1 {
     text-align: center;
     align-self: center;
     font-size: large;
+    margin: 2rem 0;
 }
 
 #contact,
@@ -70,13 +68,11 @@ h1 {
     padding: 0px 25px;
     width: 100%;
     box-sizing: border-box;
-
 }
 
 #contact ul {
     list-style: none;
     padding: 0px;
-
 }
 
 #contact li {
