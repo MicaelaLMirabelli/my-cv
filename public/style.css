@@ -51,15 +51,6 @@ section {
     padding: 0 40px;
 }
 
-#profile-picture-container {
-    background: url("./images/profile.jpeg") no-repeat center center;
-    position: relative;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-size: cover;
-    margin: 2rem 0;
-}
 
 h1 {
     color: #383546;
@@ -141,3 +132,34 @@ section p {
 }
 
 /*This is a comment */
+@media only screen and (min-width: 768px) {
+    header {
+        flex-direction: row-reverse;
+    }
+
+    header img {
+        width: 50%;
+        max-width: 25rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    header {
+        padding: 0 3rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    #jobtitle {
+        font-size: 2rem;
+    }
+
+    body {
+        grid-template-columns: 30% auto;
+        grid-template-areas:
+            "header header"
+            "aside main";
+    }
+}
