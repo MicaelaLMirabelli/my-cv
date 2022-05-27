@@ -70,7 +70,8 @@ h1 {
 }
 
 #contact,
-#aboutme {
+#aboutme,
+#skills {
     align-self: flex-start;
     padding: 0px 25px;
     width: 100%;
